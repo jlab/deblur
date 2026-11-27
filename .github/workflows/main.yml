@@ -44,13 +44,14 @@ jobs:
             channels:
               - conda-forge
               - bioconda
+          # current versions: vsearch 2.32.0 [conda: 2.32.0], mafft 7.526 (2024/Apr) [conda: 7.525], sortmerna 8.0.2 [conda: 8.0.2]
           create-args: >-
             python=${{ matrix.python-version }}
             pip
             h5py
-            vsearch>=2.7.0
-            mafft>=7.394
-            sortmerna=2.0
+            vsearch
+            mafft
+            sortmerna
             pytest
             pytest-cov
             click
