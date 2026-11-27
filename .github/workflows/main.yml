@@ -51,7 +51,7 @@ jobs:
             h5py
             vsearch
             mafft
-            sortmerna>=8
+            sortmerna
             pytest
             pytest-cov
             click
