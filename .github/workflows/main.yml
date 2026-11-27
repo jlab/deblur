@@ -54,8 +54,6 @@ jobs:
             pytest
             pytest-cov
             click
-            hdmedians
-            cython
             scikit-bio
             biom-format
           init-shell: bash
